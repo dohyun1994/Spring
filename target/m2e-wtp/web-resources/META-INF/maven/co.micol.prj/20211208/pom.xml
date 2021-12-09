@@ -47,16 +47,15 @@
 	</dependency>
 	
   </dependencies>
-  <!--  라이브러리 의존성 주입 -->
+  <!--  라이브러리 의존성 주입 END -->
   
-	<!--  배포 옵션을 정의하는 곳 -->
+  <!--  배포 옵션을 정의하는 곳 -->
   <build>
     <resources>
     	<resource>
     		<directory>src/main/resources</directory>
     	</resource>
     </resources>
-    
     
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>

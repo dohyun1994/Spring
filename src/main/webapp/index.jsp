@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-시작
+
+<jsp:forward page="home.do"/>
 </body>
 </html>

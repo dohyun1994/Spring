@@ -10,7 +10,6 @@ public class HomeCommand implements Command {
 	@Override
 	public String run(HttpServletRequest request, HttpServletResponse response) {
 		
-		return "home.jsp";		// 메인 페이지 리턴
+		return "home/home";		// 메인 페이지 리턴
 	}
-
 }
